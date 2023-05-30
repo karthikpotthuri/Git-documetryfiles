@@ -1,0 +1,22 @@
+####################################################################
+  author           version                 date of publish 
+
+  karthik           1.0                     30-05-2023
+
+###################################################################
+ git config...> git config --user.name "<name>" and git config --global user.email " xxxx@gmail.com"
+ git init ....>git init 
+ git clone ....>git clone url
+ git add .......> git add filename or multiple files using "*"
+ git commit ....>git commit -m "commit message"
+ git commit -a ...> it will commits any files added in the repositary with git add and also commits any files you have changed since then
+ git status .....>..it will display the state of the working directory and the staging area .
+ git push .......git origin master.> this command sends the changes made on the master branch, to your remote repositary.
+ git push --all
+ git pull ........git pull url ...> it is used to receive data from github. it fetches and merges chnages on the remote server to your working directory.
+ git branch ...list all branches avaliable in the repositary
+ git merge ...is used to merge the specified branch's history into current branch
+ git checkout ...switching the branches from one branch to another branch
+ git log ...check the commit history
+ git remote ....>git remote add origin url....>is used to connect your local repositary to remote server.
+
